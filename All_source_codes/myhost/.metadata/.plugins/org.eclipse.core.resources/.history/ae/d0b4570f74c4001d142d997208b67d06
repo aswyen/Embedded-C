@@ -1,0 +1,32 @@
+/*
+ * main.c
+ *
+ *  Created on: Mar 16, 2023
+ *      Author: Alec
+ */
+
+
+#include <stdio.h>
+
+
+void bitwise(int a, int b){
+	printf(" OP: A		B		OUT");
+	printf("AND: %04X %04X %04X\n", a, b, a&b);
+	printf(" OR: %04X %04X %04X\n", a, b, a|b);
+	printf("XOR: %04X %04X %04X\n", a, b, a^b);
+	printf("NOT: %04X %04X %04X %04X\n", a, b, ~a, ~b);
+}
+
+
+int main(void){
+
+	int a, b = 0;
+
+	printf("Enter two integers:");
+	scanf("%d %d", &a, &b);
+
+	bitwise(a,b);
+
+
+	return 0;
+}

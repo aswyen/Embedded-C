@@ -1,0 +1,7 @@
+21:53:52 **** Incremental Build of configuration Debug for project ptr ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o ptr.exe main.o 
+
+21:53:52 Build Finished. 0 errors, 0 warnings. (took 277ms)
+

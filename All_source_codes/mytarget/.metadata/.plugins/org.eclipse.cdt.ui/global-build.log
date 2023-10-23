@@ -1,0 +1,77 @@
+16:16:42 **** Incremental Build of configuration Debug for project pin_read ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "pin_read.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Alec\Documents\repos\Embedded-C\All_source_codes\mytarget\pin_read\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pin_read.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pin_read.elf
+ 
+arm-none-eabi-size   pin_read.elf 
+arm-none-eabi-objdump -h -S  pin_read.elf  > "pin_read.list"
+   text	   data	    bss	    dec	    hex	filename
+    760	     16	   1568	   2344	    928	pin_read.elf
+Finished building: default.size.stdout
+ 
+Finished building: pin_read.list
+ 
+16:16:45 **** Incremental Build of configuration Debug for project pin_read ****
+make -j12 all 
+arm-none-eabi-size   pin_read.elf 
+   text	   data	    bss	    dec	    hex	filename
+    760	     16	   1568	   2344	    928	pin_read.elf
+Finished building: default.size.stdout
+ 
+16:17:39 **** Incremental Build of configuration Debug for project pin_read ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "pin_read.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Alec\Documents\repos\Embedded-C\All_source_codes\mytarget\pin_read\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pin_read.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pin_read.elf
+ 
+arm-none-eabi-size   pin_read.elf 
+arm-none-eabi-objdump -h -S  pin_read.elf  > "pin_read.list"
+   text	   data	    bss	    dec	    hex	filename
+    880	     28	   1564	   2472	    9a8	pin_read.elf
+Finished building: default.size.stdout
+ 
+Finished building: pin_read.list
+ 
+16:17:57 **** Incremental Build of configuration Debug for project pin_read ****
+make -j12 all 
+arm-none-eabi-size   pin_read.elf 
+   text	   data	    bss	    dec	    hex	filename
+    880	     28	   1564	   2472	    9a8	pin_read.elf
+Finished building: default.size.stdout
+ 
+16:22:17 **** Incremental Build of configuration Debug for project pin_read ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "pin_read.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Alec\Documents\repos\Embedded-C\All_source_codes\mytarget\pin_read\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pin_read.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pin_read.elf
+ 
+arm-none-eabi-size   pin_read.elf 
+arm-none-eabi-objdump -h -S  pin_read.elf  > "pin_read.list"
+   text	   data	    bss	    dec	    hex	filename
+    884	     28	   1564	   2476	    9ac	pin_read.elf
+Finished building: default.size.stdout
+ 
+Finished building: pin_read.list
+ 
+16:25:17 **** Incremental Build of configuration Debug for project pin_read ****
+make -j12 all 
+arm-none-eabi-size   pin_read.elf 
+   text	   data	    bss	    dec	    hex	filename
+    884	     28	   1564	   2476	    9ac	pin_read.elf
+Finished building: default.size.stdout
+ 
+16:26:48 **** Incremental Build of configuration Debug for project pin_read ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "pin_read.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Alec\Documents\repos\Embedded-C\All_source_codes\mytarget\pin_read\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pin_read.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pin_read.elf
+ 
+arm-none-eabi-size   pin_read.elf 
+arm-none-eabi-objdump -h -S  pin_read.elf  > "pin_read.list"
+   text	   data	    bss	    dec	    hex	filename
+    884	     28	   1564	   2476	    9ac	pin_read.elf
+Finished building: default.size.stdout
+ 
+Finished building: pin_read.list
+ 
